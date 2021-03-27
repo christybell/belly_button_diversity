@@ -1,5 +1,5 @@
 # Plotly & Belly Button Diversity
-<img src="static/images/bacteria_header.png" width="1100" height="300">
+<img src="static/images/bacteria_header.jpg" width="1100" height="300">
 
 ## Project Overview
 
@@ -10,7 +10,7 @@
 
 ## Challenge Deliverables and Results
 
-### Deliverable 1: Create `buildCharts` function and Bar Chart
+### Deliverable 1: Create the `buildCharts` function and Bar Chart
 
 <img src="static/images/Delv 1_buildCharts function.PNG">
 
@@ -21,22 +21,22 @@ When the `charts.js` file runs, the bar chart is added to the dashboard:
 <img src="static/images/Delv 1_bar chart.PNG">
 
 
-### Deliverable 2: Create Bubble Chart
+### Deliverable 2: Create the Bubble Chart
 
-<img src="static/images/Delv 1_bubble chart js.PNG">
+<img src="static/images/Delv 2_bubble chart js.PNG">
 
 When the `charts.js` file runs, the bubble chart is added to the dashboard:
 
-<img src="static/images/Delv 1_bubble chart.PNG">
+<img src="static/images/Delv 2_bubble chart.PNG">
 
 
-### Deliverable 3: Create Gauge Chart
+### Deliverable 3: Create the Gauge Chart
 
-<img src="static/images/Delv 1_gauge chart js.PNG">
+<img src="static/images/Delv 3_gauge chart js.PNG">
 
 When the `charts.js` file runs, the gauge chart is added to the dashboard:
 
-<img src="static/images/Delv 1_gauge chart.PNG">
+<img src="static/images/Delv 3_gauge chart.PNG">
 
 
 ### Deliverable 4: Customize the Dashboard
