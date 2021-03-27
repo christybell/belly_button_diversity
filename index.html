@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Belly Button Biodiversity</title>
+  <link 
+    rel="stylesheet" 
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  />
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body style="background-color: rgb(175, 240, 218);">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1 class="display-4" style="color:rgb(248, 229, 121);">Belly Button Biodiversity Dashboard</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="well">
+          <h3 style="text-align:center"><b>DID YOU KNOW? Your belly button is home to an ecosystem of bacteria!</b></h3>
+          <p>The insides of your navel are home to thousands and thousands of bacteria. In fact, the size of the ecosystem that these bacteria form 
+            in your belly button can be compared to the size of an entire rainforest! Researchers from North Carolina State University recently found 
+            that the average person's belly button typically harbors between 60 to 70 species of bacteria. They collected skin bacteria from the belly 
+            buttons of over 150 diverse test subjects throughout the United States. One thing they discovered is that the number and species of 
+            organisms per person varies greatly. And what's even more intriguing is so far they don't see that the differences among individuals match 
+            up easily with gender, ethnicity, age, or even washing frequency. I don't know about you but I'll never see belly buttons the same ever again!
+          </p><br>
+          <h3><p style="text-align:center"><b>Use the interactive charts below to explore the dataset</b></p></h3>
+        </div>
+      </div>
+    </div>      
+    <div class="row">
+      <div class="col-md-2">
+        <div class="well">
+          <h5>Test Subject ID No.:</h5>
+          <!-- <select id="selDataset"></select> -->
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Demographic Info</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div id="bar"></div>
+      </div>
+      <div class="col-md-5">
+        <div id="gauge"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div>
+          <p></p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="bubble"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="static/js/charts.js"></script>
+
+</body>
+
+</html>

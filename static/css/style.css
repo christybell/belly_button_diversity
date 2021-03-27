@@ -1,0 +1,11 @@
+body {
+
+	color: #302f2f;
+	padding-bottom: 50px;
+  }
+
+  .jumbotron {
+	background-image: url("../images/bacteria_header.jpg");
+	background-size: 100% 100%;
+	text-align: center;
+  }
