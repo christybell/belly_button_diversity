@@ -2,6 +2,7 @@ body {
 
 	color: #302f2f;
 	padding-bottom: 50px;
+	background-color: rgb(175, 240, 218);
   }
 
   .jumbotron {
@@ -9,3 +10,12 @@ body {
 	background-size: 100% 100%;
 	text-align: center;
   }
+
+h1 {
+	/* color:rgb(242,211,56); */
+	/* class="display-4"  */
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	/* font-size: 28px; */
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #302f2f;
+}  
