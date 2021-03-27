@@ -1,5 +1,5 @@
 # Plotly & Belly Button Diversity
-<img src="static/images/bacteria_header.jpg" width="1100" height="300">
+<img src="static/images/belly_button_readme_header.jpg" width="1000" height="300">
 
 ## Project Overview
 
